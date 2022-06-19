@@ -1,0 +1,25 @@
+//utils
+@import './utils/_visually-hidden.scss';
+    
+
+//base styles
+@import './base/_common.scss';
+@import './base/_container.scss';
+@import './base/_reset.scss';
+
+//components
+@import './components/_modal-form.scss';
+@import './components/_button.scss';
+
+//layouts
+@import './layouts/_header.scss';
+@import './layouts/_navigation.scss';
+@import './layouts/_cap.scss';
+@import './layouts/_description.scss';
+@import './layouts/_image.scss';
+@import './layouts/_team.scss';
+@import './layouts/_clients.scss';
+@import './layouts/_portfolio.scss';
+@import './layouts/_footer.scss';
+
+

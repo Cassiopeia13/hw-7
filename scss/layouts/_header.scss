@@ -1,0 +1,30 @@
+.header {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ECECEC;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+
+    align-items: center;
+    letter-spacing: 0.03em;
+    margin-right: 93px;
+    color: black;
+
+}
+
+
+.accent {
+    color: #2196F3;
+}
