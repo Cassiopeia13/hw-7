@@ -22,7 +22,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
-    margin-top: 68px;
+    
 }
 
 .team__item {
@@ -97,9 +97,12 @@
     &:focus {
      background-color: #2196F3;
     }
+    &:hover .team__social-icon,
+    &:focus .team__social-icon {
+      fill: #FFFFFF;
+    }
 
 }
-
 
 .team__social-icon {
     fill: #AFB1B8;
@@ -108,7 +111,3 @@
 
 }
 
-.team__social-link:hover .team__social-icon,
-.team__social-link:focus .team__social-icon {
-    fill: #FFFFFF;
-}

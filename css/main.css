@@ -897,7 +897,6 @@ li {
           justify-content: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  margin-top: 68px;
 }
 
 .team__item {
@@ -979,16 +978,14 @@ li {
 .team__social-link:hover, .team__social-link:focus {
   background-color: #2196F3;
 }
+.team__social-link:hover .team__social-icon, .team__social-link:focus .team__social-icon {
+  fill: #FFFFFF;
+}
 
 .team__social-icon {
   fill: #AFB1B8;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.team__social-link:hover .team__social-icon,
-.team__social-link:focus .team__social-icon {
-  fill: #FFFFFF;
 }
 
 .clients {
@@ -1052,9 +1049,7 @@ li {
 .clients__link:hover, .clients__link:focus {
   border-color: #2196F3;
 }
-
-.clients__link:hover .clients__icon,
-.clients__link:focus .clients__icon {
+.clients__link:hover .clients__icon, .clients__link:focus .clients__icon {
   fill: #2196F3;
 }
 
@@ -1107,6 +1102,11 @@ li {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+.project__item:hover .project__text {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+}
 
 .project__image {
   position: relative;
@@ -1135,12 +1135,6 @@ li {
   letter-spacing: 0.03em;
   color: #FFFFFF;
   background-color: rgba(33, 150, 243, 0.9);
-}
-
-.project__item:hover .project__text {
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-  opacity: 1;
 }
 
 .project__title {
