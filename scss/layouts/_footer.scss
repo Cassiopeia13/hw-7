@@ -104,11 +104,12 @@
 
 .social__item {
     margin-right: 10px;
+
+    & :last-child {
+      margin: 0;
+     }
 }
 
-.social__item :last-child {
-    margin: 0;
-}
 
 .social__link {
     display: flex;

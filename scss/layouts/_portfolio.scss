@@ -14,11 +14,13 @@
 
 .portfolio__item {
     margin-right: 8px;
+    
+    & :last-child {
+     margin: 0;
+    } 
 }
 
-.portfolio__item :last-child {
-    margin: 0;
-}
+
 
 .project__list {
     flex-wrap: wrap;
@@ -84,7 +86,7 @@
 }
 
 .project__title {
-    padding: 20px 24px 20px 24px;
+   padding: 20px 24px 20px 24px;
         
 }
 

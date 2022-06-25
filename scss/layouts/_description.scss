@@ -17,11 +17,12 @@
     margin-right: 30px;
     width: 270px;
 
+    & :last-child {
+      margin: 0;
+     }
+
 }
 
-.description__item :last-child {
-    margin: 0;
-}
 
 .description__link {
     display: flex;

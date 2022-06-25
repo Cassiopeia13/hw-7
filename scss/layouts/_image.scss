@@ -13,13 +13,13 @@
 
 .image__item {
     position: relative;
-    margin-right: 30px;
+    margin-right: 30px; 
+    
+    &:last-child {
+       margin: 0;
+     }
 }
 
-
-.image__item:last-child {
-    margin: 0;
-}
 
 .image__text {
     position: absolute;
